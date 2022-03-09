@@ -1,1 +1,1 @@
-#interfaz de usuaroi whatsapp
+# interfaz de usuario whatsapp
