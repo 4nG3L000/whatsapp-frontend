@@ -1,0 +1,34 @@
+body{
+  background-color: #101d24;
+  color: #777e83;
+}
+.bd-dark {
+  background-color: #202c33 !important;
+}
+.select-user{
+  background-color: #777e83;
+  width: 65px;
+  height: 40px;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+.users-list{
+  display: none;
+  background-color: #777e83;
+  border-radius: 10px;
+  margin: 5px 5px;
+}
+.img-user{
+  width: 14%;
+  padding: 5px;
+}
+/* .show-users{
+  display: flex;
+} */
+.nb-options .active{
+  color: #35cd96;
+  border-bottom: 3px solid #35cd96;
+}
+.contacts{
+  display: none;
+}
