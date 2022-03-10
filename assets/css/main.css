@@ -2,6 +2,9 @@ body{
   background-color: #101d24;
   color: #777e83;
 }
+.navbar-brand{
+  color: #777e83 !important;
+}
 .bd-dark {
   background-color: #202c33 !important;
 }
@@ -22,13 +25,27 @@ body{
   width: 14%;
   padding: 5px;
 }
-/* .show-users{
-  display: flex;
-} */
 .nb-options .active{
   color: #35cd96;
   border-bottom: 3px solid #35cd96;
 }
 .contacts{
   display: none;
+}
+.chat-card,
+.contact-card{
+  padding: 15px;
+}
+.chat-card .content{
+  padding: 10px;
+  border-bottom: 2px solid #777e83;
+}
+.img-chat-card{
+  width: 20%;
+  max-width: 80px;
+  padding: 5px;
+}
+.img-contact-card{
+  width: 15%;
+  padding: 5px;
 }
