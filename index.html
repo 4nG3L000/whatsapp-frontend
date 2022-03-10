@@ -30,9 +30,33 @@
       <div class="h6" id="op-contacts" onclick="cambiarSeccion('.contacts')">CONTACTS</div>
     </div>
   </nav>
-  <section class="chats bg-danger">Chast</section>
-  <section class="contacts bg-warning">Contacts</section>
+  <!-- inicio seccion de chats  -->
+  <section class="chats">
+    <div class="chat-card d-flex flex-row align-items-center">
+      <img src="assets/images/user.png" class="img-chat-card">
+      <div class="content w-100 d-flex flex-column">
+        <div class="message-info mb-2 d-flex justify-content-between">
+          <span class="fw-bold">Nombre</span>
+          <span class="fw-bold">11:51 AM</span>
+        </div>
+        <div class="message-content">
+          Nombre: contenido del mensaje...
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- fin seccion chats  -->
 
+  <!-- inicio seccion de contacts  -->
+  <section class="contacts">
+    <div class="contact-card d-flex flex-row align-items-center">
+      <img src="assets/images/user.png" class="img-contact-card">
+      <div class="d-flex align-items-center">
+        <span class="ms-3">Nombre del contacto</span>
+      </div>
+    </div>
+  </section>
+  <!-- fin seccion contacts  -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
   <script src="assets/js/main.js"></script>
   
