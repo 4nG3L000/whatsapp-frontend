@@ -32,7 +32,7 @@
   </nav>
   <!-- inicio seccion de chats  -->
   <section class="chats">
-    <div class="chat-card d-flex flex-row align-items-center">
+    <div class="chat-card d-flex align-items-center">
       <img src="assets/images/user.png" class="img-chat-card">
       <div class="content w-100 d-flex flex-column">
         <div class="message-info mb-2 d-flex justify-content-between">
@@ -60,26 +60,29 @@
 
   <!-- inicio seccion chat-panel  -->
   <section class="chat-pane flex-column">
-    <div class="row-message">
-      <div class="user-message">
+    <div class="messages-preview overflow-auto d-flex flex-column justify-content-end">
+      <div class="send-message">
         hola como estas?, quiero preguntarte algo.
       </div>
-    </div>
-    <div class="row-message">
-      <div class="contact-message">
+
+      <div class="received-message">
         Todo bien., dime.
       </div>
-    </div>
-    <div class="row-message">
-      <div class="contact-message">
-        Que se te ofrece?
+
+      <div class="received-message">
+        Que se te ofrece? esto es una conversacion de prueba para ver el ancho de los div de mensajes
       </div>
-    </div>
-    <div class="row-message">
-      <div class="user-message">
+
+      <div class="send-message">
         Nada xD
       </div>
     </div>
+    <div class="message-form d-flex">
+      <button type="button" class="btn btn-primary">S</button>
+      <input type="text" class="form-control">
+      <button type="button" class="btn btn-success">Enviar</button>
+    </div>  
+
   </section>
   <!-- fin seccion chat-panel  -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
