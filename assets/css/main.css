@@ -1,6 +1,11 @@
 body{
   background-color: #101d24;
   color: #777e83;
+  height: -webkit-fill-available;
+}
+.navbar{
+  position: fixed !important;
+  width: 100%;
 }
 .navbar-brand{
   color: #777e83 !important;
@@ -36,6 +41,10 @@ body{
 .contact-card{
   padding: 15px;
 }
+.chat-card:hover,
+.contact-card:hover{
+  background-color: #212d33;
+}
 .chat-card .content{
   padding: 10px;
   border-bottom: 2px solid #777e83;
@@ -49,28 +58,37 @@ body{
   width: 15%;
   padding: 5px;
 }
+.chats,
+.contacts{
+  padding-top: 110px;
+}
 .chat-pane{
   display: none;
-  position: absolute;
-  bottom: 0;
-}
-.chat-pane,
-.row-message{
   width: 100%;
+  height: 100vh;
 }
-.user-message,
-.contact-message{
+.messages-preview{
+  height: calc(100vh - calc(110px - 50px));
+}
+.send-message,
+.received-message{
   max-width: 70%;
   margin: 5px 10px;
   padding: 5px 10px;
 }
-.user-message{
+.send-message{
   background-color: #113632;
-  float: right;
   border-radius: 5px 0 5px  5px;
+  align-self: flex-end;
 }
-.contact-message{
+.received-message{
   background-color: #202c33;
-  float: left;
   border-radius: 0 5px 5px  5px;
+}
+.message-form{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #202c33;
+  padding: 10px;
 }
